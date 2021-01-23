@@ -1,10 +1,10 @@
 
   body{
-    background-image: url("/site/Harazd/images/tekstura.jpg");
+    background-image: url("../images/tekstura.jpg");
     background-attachment: fixed;
  }
  nav{
-  background-image: url("/site/Harazd/images/сніжки.jpg");
+  background-image: url("../images/сніжки.jpg");
 }
 nav ul a{
   color: rgb(82, 87, 83);
