@@ -16,13 +16,16 @@ nav ul a{
   margin-left:60px
 }
 nav li a {
-   background-color: #404040;
+  background-image: url("../images/tekstura.jpg");
 }
 
 .side-nav{
-  background-color: rgb(122, 119, 126) !important;
+  background-image: url("../images/сніжки.jpg") !important;
    
   }
+  .side-nav a {
+    color: rgba(243, 228, 13, 0.938);
+   }
    #sidenav-overlay{
     z-index: -1
   }
