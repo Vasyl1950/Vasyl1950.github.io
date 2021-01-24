@@ -116,12 +116,13 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
-  <script>
-      $(document).ready(function(){
+  
+ <script>
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
       $('.button-collapse').sideNav();
-      });
+  });
   </script>
-
 
 <script>
   function initMap() {
@@ -132,6 +133,7 @@
     var map = new google.maps.Map(document.getElementById("map"), {
       zoom: 15,
       center: uluru,
+      mapTypeId: google.maps.MapTypeId.HYBRID
     });
     var marker = new google.maps.Marker({
       position: uluru,
