@@ -6,9 +6,7 @@
  nav{
   background-image: url("../images/сніжки.jpg");
 }
-nav ul a{
-  color: rgb(82, 87, 83);
-}
+
 #nav-mobile {
   margin-left:260px !important;
 }
@@ -16,7 +14,7 @@ nav ul a{
   margin-left:60px
 }
 nav li a {
-  background-image: url("../images/tekstura.jpg");
+  background-color:#26a69a94 !important;
 }
 
 .side-nav{
