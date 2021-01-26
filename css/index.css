@@ -3,16 +3,31 @@
     background-image: url("../images/tekstura.jpg");
     background-attachment: fixed;
  }
+ #top_menu {
+  width: 100%;
+  height: auto;
+  z-index: 999;
+  margin: 0px auto;
+  background: #111111;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
  nav{
   background-image: url("../images/сніжки.jpg");
 }
-
+#main,#main1 {
+  padding-top: 1rem;
+}
+#phot {
+  padding-top: 2rem;
+}
 #nav-mobile {
   margin-left:260px !important;
 }
 #logo{
   margin-left:60px
 }
+
 nav li a {
   background-color:#26a69a94 !important;
 }
@@ -30,9 +45,6 @@ nav li a {
 .col{font-family:Lora,'Times New Roman',serif;font-size:20px;color:#404040}
 p {
   line-height: 1.5;
-  }
-.parallax-container .section {
-    width: 100%;
   }
 
 /* Map outside tab */
@@ -71,8 +83,9 @@ display: inherit;
 padding:50px ;
 }
 .parallax-container {
-height: 450px !important;
+height: 650px !important;
 background-color: inherit;
+top: 20px;
 }
 #foot{
   background-image: url("../images/tekstura.jpg");
@@ -104,9 +117,7 @@ transform: scale(1.5);
 box-shadow: 3px 3px 1px #111111;
 transition: all 0.3s linear;
 }
- .parallax-container {
-   height:300px;
-}
+ 
 .slider .indicators .indicator-item {
 background-color: #666666;
 border: 3px solid #ffffff;
@@ -190,10 +201,7 @@ background-color: #282e4491;
  	 background-repeat: no-repeat;
  	 background-size: cover;
  }
- .parallax-container
- {
- 	color: black;
- }
+
  @media only screen and (max-width : 600px) {
   .parallax-container
  {
