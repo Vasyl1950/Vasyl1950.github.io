@@ -176,6 +176,13 @@ iframe {
 background-color: #282e4491;
 }
 
+.icon-block {
+  padding: 0 15px;
+}
+ .parallax img{
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+ }
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -193,14 +200,6 @@ background-color: #282e4491;
 }
 
 
-.icon-block {
-  padding: 0 15px;
-}
- .parallax img 
- {
- 	 background-repeat: no-repeat;
- 	 background-size: cover;
- }
 
  @media only screen and (max-width : 600px) {
   .parallax-container
