@@ -1,2 +1,0 @@
-"# Harazd" 
-"# Harazd" 
