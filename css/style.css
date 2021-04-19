@@ -67,7 +67,7 @@ li a:hover {
 li a{
     color:chartreuse;
 }
-
+/*----------------*/
 #carousel{
   margin: 0 20px;
 }
@@ -133,6 +133,7 @@ li a{
   margin: 0 auto;
  
 }
+/*----------*/
 #foot{
   color: rgba(26 209 228);
   font-family: 'Oswald', sans-serif !important;
