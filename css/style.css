@@ -31,8 +31,9 @@ body{
   border-color: #00ff1f;
   border-radius: 30px;
 }
-/*.header {
+.header {
 	 border-bottom: 1px solid #e2e2e2;
+   background: #4c362e;
 	 position: sticky;
 	 top: 0;
 	 z-index: 9999;
@@ -49,26 +50,43 @@ body{
 	 color: rgba(255, 255, 255, .7);
 	 display: block;
 	 padding: 0.5rem 0 0.5rem 0.5rem;
+  
 }
- @media (min-width: 992px) {
-	 .header__brand__link {
-		 padding-right: 1rem;
-		 padding-left: 1rem;
-	}
+
+li a:hover {
+  background-color: #ddd !important;
+  color: rgb(207, 22, 22);
 }
- .header__brand__item--active {
-	 border-top: 3px solid lightgray;
-	 border-bottom: 2px solid lightgray;
-	 margin-top: -3px;
+   
+li a{
+  color:chartreuse;
 }
- @media screen and (max-width: 991px) {
-	 .header__brand__item--active {
-		 border-top-width: 1px;
-		 margin-top: 0;
-	}
-}
- */
 nav {
+  font-family: 'Oswald', sans-serif !important;
+}
+.navbar-text{
+  color: rgb(15, 219, 42);
+}
+#top_menu_inner {
+  position: relative;
+  background-color: #433e8a8c;
+  display: flex;
+  margin: 0 auto;
+  }
+#top_menu_inner li {
+  display: block;
+  margin-left: .3rem;
+  margin-right: .3rem;
+  flex-grow: 2;
+  font-weight: 900;
+  font-size: 18px;
+  }
+ 
+    .navbar-nav{
+   
+      border-left-style: double 2px;
+  }
+/*nav {
     font-family: 'Oswald', sans-serif !important;
 }
 .navbar-text{
@@ -129,7 +147,7 @@ li a:hover {
   
 li a{
     color:chartreuse;
-}
+}*/
 /*----------------*/
 #carousel{
   margin: 0 20px;
