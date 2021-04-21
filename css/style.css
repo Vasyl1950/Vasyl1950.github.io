@@ -12,7 +12,7 @@ body{
   font-size: 30px;
   height: 175px;
 }
-
+/*
 .wave {
   color: #e67c1a;
   animation: 0.5s color infinite;
@@ -22,15 +22,15 @@ body{
   50% {
     color: #e4c412;
   }
-}
+}*/
 #hara{
   color: rgb(235, 18, 18);
-  background-color: rgb(97, 74, 74);
+  background-color: #4d7c54ab;
 }
 
  nav {
      font-family: 'Oswald', sans-serif !important;
-     background-color: #478056d9;
+     background-color: #143e14a8
  }
  .navbar-text{
      color: rgb(15, 219, 42);
@@ -159,6 +159,7 @@ body{
  #foot{
    color: rgba(26 209 228);
    font-family: 'Oswald', sans-serif !important;
+   background-color:#143e14a8;
  }
  .footer-copyright{
    margin: 0 auto;
