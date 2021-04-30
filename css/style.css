@@ -102,6 +102,7 @@ body{
  }
  #text{
   color: rgb(247, 12, 12);
+  font-size:2.4em;
 }
  #pasek, #pasek1,
  #pasek2,#pasek11{
@@ -176,4 +177,9 @@ body{
      width: 560px !important;
      height: 315px !important;
    }
+   #text{
+     background-color: mediumslateblue;
+    color: rgb(12, 247, 51);
+    font-size:3.4em;
+  }
   }
