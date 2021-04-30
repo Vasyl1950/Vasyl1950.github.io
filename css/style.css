@@ -179,10 +179,3 @@ body{
    }
   
   }
-  @media (min-width: 768px) { 
-     #text{
-    background-color: mediumslateblue;
-   color: rgb(12, 247, 51);
-   font-size:3.4em;
- } 
-}
