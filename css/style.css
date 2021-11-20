@@ -1,6 +1,6 @@
 
 body{
- background-image:url(../images/wesna4.jpg); 
+ background-image:url(../images/осінь.jpg); 
  background-attachment: fixed;
 
 }
@@ -67,8 +67,8 @@ body{
    }
    #top_menu_inner li {
    display: block;
-   margin-left: .3rem;
-   margin-right: .3rem;
+   margin-left: 1.3rem;
+   margin-right: 2.3rem;
    flex-grow: 2;
    font-weight: 900;
    font-size: 18px;
