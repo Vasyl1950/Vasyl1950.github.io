@@ -139,6 +139,13 @@ body{
    padding: 5px;
  }
  /*--гАЛЕРЕЯ END--*/
+ a[data-fancybox] img {
+  cursor: zoom-in;
+}
+
+.fancybox__caption {
+  text-align: center;
+}
  #map{
    margin-left: auto;
      margin-right: auto;
